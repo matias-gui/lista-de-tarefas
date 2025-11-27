@@ -57,6 +57,10 @@ body {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.489);
 }
+// Previni o zoom no ios ao focar no input 
+@supports (-webkit-touch-callout: none) {
+    input
+    }
 
 .msg {
     display: none;
