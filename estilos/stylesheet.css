@@ -64,7 +64,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: url(/imagens/hanna-lazar-fnPPObbXXvo-unsplash.jpg) center center no-repeat fixed  ;
+    background: url(../imagens/hanna-lazar-fnPPObbXXvo-unsplash.jpg) center center no-repeat fixed  ;
     background-size: cover;
 }
 .container-input{
