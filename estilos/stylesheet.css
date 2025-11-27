@@ -59,7 +59,11 @@ body {
 }
 // Previni o zoom no ios ao focar no input 
 @supports (-webkit-touch-callout: none) {
-    input
+    input, 
+    textarea,
+    select{
+        font-size: 16px;
+    }
     }
 
 .msg {
